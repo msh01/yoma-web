@@ -269,7 +269,7 @@ function CRUD(options) {
         return
       }
       crud.status.add = CRUD.STATUS.PROCESSING
-      crud.crudMethod.add(crud.form).then(() => {
+      crud.crudMethod.add(crud.form).then(res => {
         crud.status.add = CRUD.STATUS.NORMAL
         crud.resetForm()
         crud.addSuccessNotify()
