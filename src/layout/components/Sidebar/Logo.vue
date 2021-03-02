@@ -25,7 +25,7 @@ export default {
   },
   data() {
     return {
-      title: 'yoga代码生成-后台',
+      title: 'yoma代码生成-后台',
       logo: Logo
     }
   }

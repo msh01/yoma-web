@@ -2,7 +2,7 @@ module.exports = {
   /**
    * @description 网站标题
    */
-  title: 'yoga代码生成后台',
+  title: 'yoma代码生成后台',
   /**
    * @description 是否显示 tagsView
    */
