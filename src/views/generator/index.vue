@@ -39,8 +39,7 @@
               预览
             </router-link>
           </el-button>
-          <el-button size="mini" style="margin-left: -1px;margin-right: 2px" type="text" @click="to
-          Download(scope.row.tableName)">下载</el-button>
+          <el-button size="mini" style="margin-left: -1px;margin-right: 2px" type="text" @click="toDownload(scope.row.tableName)">下载</el-button>
           <el-button size="mini" style="margin-left: -1px;margin-right: 2px" type="text">
             <router-link :to="'/sys-tools/generator/config/' + scope.row.tableName">
               配置
