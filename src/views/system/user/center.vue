@@ -135,7 +135,7 @@ import { isvalidPhone } from '@/utils/validate'
 import { parseTime } from '@/utils/index'
 import crud from '@/mixins/crud'
 import { editUser } from '@/api/system/user'
-import Avatar from '@/assets/images/avatar.png'
+import Avatar from '@/assets/images/avatar.jpeg'
 import PanelGroup from '@/views/dashboard/CenterPanelGroup'
 
 export default {

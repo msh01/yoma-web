@@ -53,7 +53,7 @@ import Doc from '@/components/Doc'
 import Screenfull from '@/components/Screenfull'
 import SizeSelect from '@/components/SizeSelect'
 import Search from '@/components/HeaderSearch'
-import Avatar from '@/assets/images/avatar.png'
+import Avatar from '@/assets/images/avatar.jpeg'
 
 export default {
   components: {
