@@ -2,7 +2,7 @@
   "name": "yoma-web",
   "version": "2.6.0",
   "description": "yoma代码平台",
-  "author": "Zheng Jie",
+  "author": "msh01",
   "license": "Apache-2.0",
   "scripts": {
     "dev": "vue-cli-service serve",
