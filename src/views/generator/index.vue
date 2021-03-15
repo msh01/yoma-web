@@ -45,7 +45,7 @@
               配置
             </router-link>
           </el-button>
-          <el-button type="text" style="margin-left: -1px" size="mini" @click="toGen(scope.row.tableName)">生成</el-button>
+          <el-button v-if=" scope.row.generatorEnabled" type="text" style="margin-left: -1px" size="mini" @click="toGen(scope.row.tableName)">生成</el-button>
         </template>
       </el-table-column>
     </el-table>
