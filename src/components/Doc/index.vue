@@ -9,7 +9,7 @@ export default {
   name: 'Doc',
   methods: {
     click() {
-      window.open('https://doc.el-admin.xin/guide/', '_blank')
+      window.open('https://doc.yoma.com/guide/', '_blank')
     }
   }
 }
